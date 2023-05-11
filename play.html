@@ -28,43 +28,38 @@
     </header>
 
     <main>
-      <div class="players">
-        Player:
-        <span class="player-name">Mystery player</span>
-      </div>
-      <ul class="notification">
-        <li class="player-name">Tim started a new game</li>
-        <li class="player-name">Ada started a new game</li>
-        <li class="player-name">Tim scored 337</li>
-      </ul>
+      <!-- <ul class="notification">
+        <li class="player-name">Tim: 64%</li>
+        <li class="player-name">Tyler: 24%</li>
+      </ul> -->
 
       <!-- More formatting with old style HTML -->
       <br />
 
       <div>
-        <label for="count">Score</label>
-        <input type="text" id="count" value="--" readonly />
+        <!--<label for="count">Score</label>-->
+        <div class="players">
+          Player:
+          <span class="player-name">Mystery player</span>
+          <h>&amp;</h>
+        <input type="text" id="count" placeholder="Their name here" />
       </div>
-
+      <br />
+      <h1>84%</h1>
       <br />
 
-      <div>
-        <button>Reset</button>
-      </div>
 
-      <br />
-
-      <div>
+      <!-- <div>
         <table>
           <tr>
             <td>
               <button>
-                <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100">
+                <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100"> -->
                   <!-- SVG
                     M move <to x,y>
                     Q quadratic curve <control point x,y> <to x,y>
                 -->
-                  <path d="M 95,5 95,95 5,95 Q 5,5 95,5" fill="green" />
+                  <!-- <path d="M 95,5 95,95 5,95 Q 5,5 95,5" fill="green" />
                 </svg>
               </button>
             </td>
@@ -93,7 +88,20 @@
             </td>
           </tr>
         </table>
+      </div> -->
+
+      <img src="heart.png">
+
+      <br />
+      <br />
+      <br />
+
+      <div>
+        <button>Calculate</button>
       </div>
+
+      <br />
+
     </main>
 
     <footer>
